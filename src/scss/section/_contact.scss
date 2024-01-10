@@ -32,10 +32,11 @@
   }
 
   &__link-item {
-    min-height: rem(30);
     display: flex;
     align-items: end;
+    min-height: rem(30);
     gap: rem(10);
+
     a,
     address {
       font-weight: 400;

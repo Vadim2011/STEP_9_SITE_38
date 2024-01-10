@@ -11,6 +11,11 @@
     }
   }
 
+  &__title-tooltip {
+    display: flex;
+    justify-content: space-between;
+  }
+
   &__list {
     display: grid;
     grid-auto-rows: 1fr;

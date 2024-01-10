@@ -57,15 +57,18 @@
 }
 
 .example {
+  display: flex;
+  flex-direction: column;
   border-radius: rem(10);
   padding: rem(30);
-  box-shadow: rem(0) rem(4) rem(6) rem(2) #ddd;
+  box-shadow: rem(0) rem(4) rem(18) rem(-8) var(--color-main);
   background-color: var(--color-light);
 
   &__link-img {
     display: block;
     overflow: hidden;
     border-radius: rem(5);
+    box-shadow: rem(0) rem(0) rem(18) rem(-8) var(--color-main);
 
     &:not(:last-child) {
       margin-bottom: rem(20);
@@ -102,11 +105,12 @@
   }
 
   &__link {
+    margin-top: auto;
     font-weight: 400;
     font-style: normal;
     font-size: rem(18);
     line-height: 1.6; /* 28.8px */
-    color: rgba(20, 16, 36, 0.4);
+    color: rgba(20, 16, 36, 0.8);
     transition: color 0.2s ease-in-out;
 
     &:focus-visible {

@@ -40,7 +40,7 @@
   }
 
   &__icon {
-    filter: grayscale(60%) drop-shadow(rem(4) rem(4) rem(10));
+    filter: grayscale(50%) drop-shadow(rem(2) rem(2) rem(4));
     transition: filter 0.3s ease-in-out;
 
     &--big {
@@ -52,7 +52,7 @@
     }
 
     &:hover {
-      filter: grayscale(10%) drop-shadow(rem(4) rem(4) rem(6));
+      filter: grayscale(10%) drop-shadow(rem(2) rem(2) rem(8));
     }
   }
 }
